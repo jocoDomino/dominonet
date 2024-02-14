@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Generic - Hyperspace by HTML5 UP</title>
@@ -19,9 +14,9 @@
 				<a href="index.html" class="title">Hyperspace</a>
 				<nav>
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="generic.html" class="active">Generic</a></li>
-						<li><a href="elements.html">Elements</a></li>
+						<li><a href="index">Home</a></li>
+						<li><a href="generic" class="active">Generic</a></li>
+						<li><a href="elements">Elements</a></li>
 					</ul>
 				</nav>
 			</header>
