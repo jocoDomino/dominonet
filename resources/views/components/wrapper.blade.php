@@ -3,13 +3,11 @@
     <!-- Intro -->
     <x-section-wrapper id="intro" class="wrapper style1 fullscreen fade-up">
         <div class="inner">
-            <h1>Hyperspace</h1>
+            <h1>DominoNet</h1>
             <p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5
                     UP</a><br/>
                 and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
-            <ul class="actions">
-                <li><a href="#one" class="button scrolly">Learn more</a></li>
-            </ul>
+            <x-button url="#one" class="scrolly" button-text="Learn more"></x-button>
         </div>
     </x-section-wrapper>
 
@@ -49,52 +47,10 @@
                 malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
                 imperdiet est velit quis lorem.</p>
             <div class="features">
-                <section>
-                    <span class="icon solid major fa-code"></span>
-                    <h3>Lorem ipsum amet</h3>
-                    <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris,
-                        sed
-                        ultricies erat dapibus.</p>
-                </section>
-                <section>
-                    <span class="icon solid major fa-lock"></span>
-                    <h3>Aliquam sed nullam</h3>
-                    <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris,
-                        sed
-                        ultricies erat dapibus.</p>
-                </section>
-                <section>
-                    <span class="icon solid major fa-cog"></span>
-                    <h3>Sed erat ullam corper</h3>
-                    <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris,
-                        sed
-                        ultricies erat dapibus.</p>
-                </section>
-                <section>
-                    <span class="icon solid major fa-desktop"></span>
-                    <h3>Veroeros quis lorem</h3>
-                    <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris,
-                        sed
-                        ultricies erat dapibus.</p>
-                </section>
-                <section>
-                    <span class="icon solid major fa-link"></span>
-                    <h3>Urna quis bibendum</h3>
-                    <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris,
-                        sed
-                        ultricies erat dapibus.</p>
-                </section>
-                <section>
-                    <span class="icon major fa-gem"></span>
-                    <h3>Aliquam urna dapibus</h3>
-                    <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris,
-                        sed
-                        ultricies erat dapibus.</p>
-                </section>
+                <x-card class="icon solid major fa-code" title="Lorem ipsum amet" text="Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus."></x-card>
+                <x-card class="icon solid major fa-lock" title="Aliquam sed nullam" text="Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, ultricies erat dapibus."></x-card>
             </div>
-            <ul class="actions">
-                <li><a href="generic.html" class="button">Learn more</a></li>
-            </ul>
+            <x-button url="generic" button-text="Learn more"></x-button>
         </div>
     </x-section-wrapper>
 

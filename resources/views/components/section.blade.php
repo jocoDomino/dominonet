@@ -4,9 +4,7 @@
         <div class="inner">
             <h2>{{ $title }}</h2>
             <p>{{ $description }}</p>
-            <ul class="actions">
-                <li><a href="{{ $url }}" class="button">{{ $buttonText }}</a></li>
-            </ul>
+            <x-button url="{{ $url }}" button-text="{{ $buttonText }}"></x-button>
         </div>
     </div>
 </section>
