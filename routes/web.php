@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+//    return view('index');
+    return view('blockade');
 });
 
 Route::get('/generic', function () {
