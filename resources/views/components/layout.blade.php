@@ -8,6 +8,7 @@
     <noscript>
         <link rel="stylesheet" href="/assets/css/noscript.css"/>
     </noscript>
+    @vite('resources/css/app.css')
 </head>
 <x-body>
     {{ $slot }}

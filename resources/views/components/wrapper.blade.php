@@ -1,5 +1,7 @@
 <div id="wrapper">
-
+    @if (Route::has('login'))
+        <livewire:welcome.navigation/>
+    @endif
     <!-- Intro -->
     <x-section-wrapper id="intro" class="wrapper style1 fullscreen fade-up">
         <div class="inner">

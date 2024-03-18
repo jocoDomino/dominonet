@@ -13,15 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-//    return view('index');
-    return view('blockade');
-});
+Route::view('/', 'blockade');
 
-Route::get('/generic', function () {
-    return view('generic');
-});
+Route::view('dashboard', 'dashboard')
+    ->middleware(['auth', 'verified'])
+    ->name('dashboard');
 
-Route::get('/elements', function () {
-    return view('elements');
-});
+Route::view('profile', 'profile')
+    ->middleware(['auth'])
+    ->name('profile');
+
+require __DIR__.'/auth.php';

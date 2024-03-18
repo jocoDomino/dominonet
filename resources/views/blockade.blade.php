@@ -8,9 +8,15 @@
     <noscript>
         <link rel="stylesheet" href="/assets/css/noscript.css"/>
     </noscript>
+    @vite('resources/css/app.css')
 </head>
 {{--<x-body>--}}
 <body>
+<div class="align-right m-5">
+    @if (Route::has('login'))
+        <livewire:welcome.navigation/>
+    @endif
+</div>
 <div class="align-center" style="position: absolute; top: 50%; left: 45%">
     Under Construction
 </div>
